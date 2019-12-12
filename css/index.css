@@ -1,0 +1,342 @@
+#showpwd,
+#waitt {
+    display: none;
+}
+
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+/*#messagepwd
+{
+    display: none;
+}*/
+
+.ok {
+    background-image: url(../pics/Tick.png);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+#signupshow {
+    display: none;
+}
+
+#signupsubmit {
+    display: none;
+}
+
+.servicescardsimg {
+    opacity: 1;
+    height: 170px;
+}
+
+.body {
+    background-color: aliceblue;
+}
+
+#card {
+    border: 1px grey;
+    box-shadow: 10px 10px 50px grey;
+    background-color: ghostwhite;
+    transition: ease all 1s;
+}
+
+#card:hover {
+    box-shadow: -10px -10px 50px grey;
+    color: aliceblue;
+    transition: ease all 1s;
+}
+
+#card:hover #cardtitle {
+    display: none;
+}
+
+#card:hover #cardpara {
+    display: block;
+}
+
+#cardimg1 {
+    height: 198px;
+    /*border:2px black solid;*/
+    background-size: contain;
+    display: block;
+    transition: ease all 1s;
+}
+
+#cardtitle {
+    font-family: Adobe Garamond Pro Bold;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    font-size: 22px;
+}
+
+#cardimg2 {
+    display: none;
+    height: 170px;
+}
+
+#card:hover #cardimg1 {
+    display: none;
+    transition: ease all 1s;
+}
+
+#card:hover #highcharts {
+    opacity: 0.5;
+    transition: ease all 1s;
+}
+
+#card:hover #cardimg2 {
+    display: block;
+    transition: ease all 1s;
+}
+
+#cardpara {
+    font-family: Adobe Garamond Pro;
+    font-size: 20px;
+    display: none;
+}
+
+#card:hover #cardbody {
+    opacity: 0.8;
+    background-color: black;
+}
+
+#highcharts {
+    /*border:2px black solid;*/
+    height: 220px;
+      margin-top: 20px;
+    background-size:contain;
+    display: block;
+    transition: ease all 1s;
+    margin-bottom: 10px;
+}
+
+#infolines {
+    font-size: 25px;
+    font-family: Adobe Garamond Pro Bold;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    color: white;
+}
+
+#infolines:hover {
+    background-color: skyblue;
+    color: cadetblue;
+}
+
+#tableheading {
+    font-family: Adobe Garamond Pro Bold;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+#tablecontent {
+    font-family: Adobe Garamond Pro Bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#tableinfolines {
+    font-size: 20px;
+    font-family: Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+    color: dodgerblue;
+    background-color: azure;
+}
+
+#copyright {
+    font-size: 20px;
+    font-family: Adobe Garamond Pro Bold;
+    color: black;
+    background-color: azure;
+}
+
+#cardimg3 {
+    width: 100px;
+    height: 100px;
+    /*border:2px black solid;*/
+    margin-top: 10px;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+#searchbody {
+    font-size: 15px;
+    font-family: Adobe Garamond Pro Bold;
+}
+
+#card1 {
+    border: 1px grey;
+    box-shadow: 10px 10px 50px grey;
+    background-color: ghostwhite;
+    transition: ease all 1s;
+}
+
+#headerinfoline {
+    font-family: Adobe Garamond Pro Bold;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    color: skyblue;
+}
+
+#headernav {
+    font-size: 20px;
+    font-family: Adobe Garamond Pro Bold;
+    margin-top: 5px;
+}
+
+#headercontent {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#headerinfoline1 {
+    font-family: Adobe Garamond Pro Bold;
+    background-color: darkslategray;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#modalbodyy {
+    font-family: Adobe Garamond Pro Bold;
+    text-transform: uppercase;
+}
+
+#headercontent1 {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#developpic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#smsmsg {
+    display: none;
+}
+
+/*Small Screen*/
+@media only screen and (max-width: 399px) {
+    #icarousel{
+        margin-top: 100px;
+    }
+    #mframe iframe {
+        margin: 10px 0px;
+        width: 290px;
+        height: 180px;
+    }
+    #headerinfoline1{
+        font-size: 14px;
+    } 
+    #headerinfoline{
+    font-size: 12px;
+    }
+    #headerlogo {
+    width: 100px;
+    height: 45px;
+    }
+
+}
+
+/*--------Mobile-------*/
+@media only screen and (min-width: 400px) {
+      #mframe iframe {
+        width: 350px;
+        height: 180px;
+    }
+    
+    #icarousel{
+        margin-top: 110px;
+    }
+    #headerinfoline1, 
+    #headerinfoline{
+    font-size: 18px;
+    }
+    #headerlogo {
+    width: 100px;
+    height: 45px;
+    }
+}
+
+/*-------IPad-----*/
+@media only screen and (min-width: 600px) {
+    #mframe iframe {
+        width: 700px;
+        height: 200px;
+    }
+    #headerinfoline1, 
+    #headerinfoline{
+    font-size: 24px;
+    }
+    #headerlogo {
+    width: 120px;
+    height: 55px;
+    }
+}
+
+/*-----Tablet-----*/
+@media only screen and (min-width: 1024px) {
+     #mframe iframe {
+        width: 950px;
+        height: 250px;
+    }
+    #headerinfoline1{
+       font-size: 32px; 
+    } 
+    #headerinfoline{
+    font-size: 20px;
+    }
+    #headerlogo {
+    width: 140px;
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    }
+    .nav-item:first-child{
+        margin-left: 25px;        
+    }
+}
+
+/*----------Laptop-------------*/
+@media only screen and (min-width: 1200px) {
+    #icarousel{
+        margin-top: 135px;
+    }
+    #mframe iframe {
+        width: 1450px;
+        height: 300px;
+    }
+    #headerinfoline{
+        font-size: 22px;
+    }
+    #headerinfoline1 {
+    font-size: 35px;
+    }
+    .nav-item:first-child{
+        margin-left: 230px;        
+    }
+    #headerlogo {
+    width: 150px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    }
+}
